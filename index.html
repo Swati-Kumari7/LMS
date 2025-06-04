@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Mother's Day</title>
+  <style>
+    body {  
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #cc4578, #e580a2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      text-align: center;
+      padding: 40px;
+      background-color: #fff;
+      border-radius: 25px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #e91e63;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #555;
+      margin: 20px 0;
+    }
+
+    button {
+      background-color: #e91e63;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #d81b60;
+    }
+
+    #surprise {
+      margin-top: 20px;
+      font-size: 1.5em;
+      color: #9c27b0;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Happy Mother's Day 💐</h1>
+    <p>To the most amazing mom,<br>
+    Your love, strength, and care light up our lives.<br>
+    We love you beyond words! 💖</p>
+    <button onclick="document.getElementById('surprise').style.display='block';">
+      Click for a Surprise
+    </button>
+    <div id="surprise">🌷You are the most prettiest and hard working women in the entire world! 🌷</div>
+  </div>
+</body>
+</html>
+
